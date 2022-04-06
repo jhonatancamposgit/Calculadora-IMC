@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/icon.png" >
+    <title>Calculadora IMC</title>
+
+    <head>
+
+
+    <body>
+
+
+        <div class="container">
+
+            <h1>Calcule seu IMC (Índice de Massa Corporal) <h1>
+
+                    <p>Informe seu peso</p>
+                    <input id="weight" name="weight" type="number" min="0" max="500" placeholder="ex: 90">
+
+                    <p>Informe sua altura</p>
+                    <input id="height" name="height" type="number"  min="0" placeholder="ex: 1,75">
+
+                    <button onClick="calcular()">calcular</button>
+                    <button onClick="limpar()">limpar</button>
+
+                    <div id="resultado"></div>
+
+
+        </div>
+
+        <div class="info-weight">
+
+            <h1>Informativo</h1>
+            </br>
+            <h4> IMC 1 a 17</h4>
+            </br>
+
+            <h5> Pode causar </h5>
+            </br>
+            <ul>
+                <li> insuficiência cardiáca </li>
+                <li> Anemia Grave</li>
+                <li> Enfraquecimento do sistema imunológico </li>
+            </ul> </br>
+
+
+            <h4>IMC 17 a 18,5</h4>
+            </br>
+
+            <h5> Pode causar </h5>
+            </br>
+            <ul>
+                <li> Problemas de saúde ligados a desnutrição </li>
+            </ul>
+            </br>
+
+            <h4>IMC 18,5 a 25</h4>
+            </br>
+            <ul>
+                <li> Saudável </li>
+            </ul>
+            </br>
+            <h4>IMC 25 a 30</h4>
+            </br>
+            <h5> Pode causar </h5>
+            </br>
+            <ul>
+                <li> Fadiga </li>
+                <li> Varizes</li>
+                <li> Má circulação </li>
+            </ul>
+            </br>
+
+            <h4>IMC 30 a 35</h4>
+            </br>
+            <h5> Pode causar </h5>
+            </br>
+            <ul>
+                <li> Diabetes </li>
+                <li> Infarto</li>
+                <li> Angina </li>
+                <li> Aterosclerose </li>
+            </ul>
+            </br>
+
+            <h4>IMC 35 a 40</h4>
+            <br />
+            <h5> Pode causar </h5>
+            </br>
+            <ul>
+                <li> Falta de ar </li>
+                <li> Apneia do sono</li>
+            </ul>
+            </br>
+
+            <h4>IMC 40 +</h4>
+            </br>
+            <h5> Pode causar </h5>
+            </br>
+            <ul>
+                <li> Refluxo </li>
+                <li> Infarto</li>
+                <li> AVC </li>
+                <li> Dificuldade para locomoção </li>
+            </ul>
+            </br>
+
+        </div>
+
+
+
+
+        <script src="./script/script.js"></script>
+
+    </body>
+
+</html>
